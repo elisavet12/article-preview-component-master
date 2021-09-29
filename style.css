@@ -1,0 +1,36 @@
+:root {
+  --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+  --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+  --Grayish-Blue: hsl(212, 23%, 69%);
+  --Light-Grayish-Blue: hsl(210, 46%, 95%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope";
+  font-size: 13px;
+  max-height: 100vh;
+  margin: 0px;
+  max-width: 1440px;
+}
+
+main {
+}
+
+.box {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* max-width: 500px; */
+  padding: 256px 354px;
+}
+
+.left {
+}
+
+.left-image {
+  max-width: 660px;
+  width: 100%;
+}
